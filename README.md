@@ -2,4 +2,4 @@ GREFlashCard
 ============
 
 Flash Cards App Updated
-<a href="http://imgur.com/kPipcpI"><img src="http://i.imgur.com/kPipcpI.gif"/></a>
+<img src="https://i.imgflip.com/b042n.gif"/>
