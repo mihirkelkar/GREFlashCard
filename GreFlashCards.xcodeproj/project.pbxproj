@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F6D4FB1996D21F0002765B /* worddictViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F6D4FA1996D21F0002765B /* worddictViewController.swift */; };
+		07F6D4FF1996EC3F0002765B /* customTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F6D4FE1996EC3F0002765B /* customTableViewController.swift */; };
+		07FF77891996BBCB0058FA97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF77881996BBCB0058FA97 /* AppDelegate.swift */; };
+		07FF778C1996BBCB0058FA97 /* GreFlashCards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07FF778A1996BBCB0058FA97 /* GreFlashCards.xcdatamodeld */; };
+		07FF778E1996BBCB0058FA97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF778D1996BBCB0058FA97 /* ViewController.swift */; };
+		07FF77911996BBCB0058FA97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FF778F1996BBCB0058FA97 /* Main.storyboard */; };
+		07FF77931996BBCB0058FA97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FF77921996BBCB0058FA97 /* Images.xcassets */; };
+		07FF779F1996BBCB0058FA97 /* GreFlashCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF779E1996BBCB0058FA97 /* GreFlashCardsTests.swift */; };
+		07FF77A91996C81D0058FA97 /* meaningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF77A81996C81D0058FA97 /* meaningViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07FF77991996BBCB0058FA97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07FF777B1996BBCB0058FA97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07FF77821996BBCB0058FA97;
+			remoteInfo = GreFlashCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07F6D4FA1996D21F0002765B /* worddictViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = worddictViewController.swift; sourceTree = "<group>"; };
+		07F6D4FE1996EC3F0002765B /* customTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customTableViewController.swift; sourceTree = "<group>"; };
+		07FF77831996BBCB0058FA97 /* GreFlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreFlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FF77871996BBCB0058FA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FF77881996BBCB0058FA97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07FF778B1996BBCB0058FA97 /* GreFlashCards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GreFlashCards.xcdatamodel; sourceTree = "<group>"; };
+		07FF778D1996BBCB0058FA97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07FF77901996BBCB0058FA97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07FF77921996BBCB0058FA97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07FF77981996BBCB0058FA97 /* GreFlashCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreFlashCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FF779D1996BBCB0058FA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FF779E1996BBCB0058FA97 /* GreFlashCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreFlashCardsTests.swift; sourceTree = "<group>"; };
+		07FF77A81996C81D0058FA97 /* meaningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = meaningViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07FF77801996BBCB0058FA97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FF77951996BBCB0058FA97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07FF777A1996BBCB0058FA97 = {
+			isa = PBXGroup;
+			children = (
+				07FF77851996BBCB0058FA97 /* GreFlashCards */,
+				07FF779B1996BBCB0058FA97 /* GreFlashCardsTests */,
+				07FF77841996BBCB0058FA97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07FF77841996BBCB0058FA97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07FF77831996BBCB0058FA97 /* GreFlashCards.app */,
+				07FF77981996BBCB0058FA97 /* GreFlashCardsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07FF77851996BBCB0058FA97 /* GreFlashCards */ = {
+			isa = PBXGroup;
+			children = (
+				07FF77881996BBCB0058FA97 /* AppDelegate.swift */,
+				07FF778D1996BBCB0058FA97 /* ViewController.swift */,
+				07F6D4FE1996EC3F0002765B /* customTableViewController.swift */,
+				07FF778F1996BBCB0058FA97 /* Main.storyboard */,
+				07FF77A81996C81D0058FA97 /* meaningViewController.swift */,
+				07F6D4FA1996D21F0002765B /* worddictViewController.swift */,
+				07FF77921996BBCB0058FA97 /* Images.xcassets */,
+				07FF778A1996BBCB0058FA97 /* GreFlashCards.xcdatamodeld */,
+				07FF77861996BBCB0058FA97 /* Supporting Files */,
+			);
+			path = GreFlashCards;
+			sourceTree = "<group>";
+		};
+		07FF77861996BBCB0058FA97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07FF77871996BBCB0058FA97 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07FF779B1996BBCB0058FA97 /* GreFlashCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				07FF779E1996BBCB0058FA97 /* GreFlashCardsTests.swift */,
+				07FF779C1996BBCB0058FA97 /* Supporting Files */,
+			);
+			path = GreFlashCardsTests;
+			sourceTree = "<group>";
+		};
+		07FF779C1996BBCB0058FA97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07FF779D1996BBCB0058FA97 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07FF77821996BBCB0058FA97 /* GreFlashCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FF77A21996BBCB0058FA97 /* Build configuration list for PBXNativeTarget "GreFlashCards" */;
+			buildPhases = (
+				07FF777F1996BBCB0058FA97 /* Sources */,
+				07FF77801996BBCB0058FA97 /* Frameworks */,
+				07FF77811996BBCB0058FA97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreFlashCards;
+			productName = GreFlashCards;
+			productReference = 07FF77831996BBCB0058FA97 /* GreFlashCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07FF77971996BBCB0058FA97 /* GreFlashCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FF77A51996BBCB0058FA97 /* Build configuration list for PBXNativeTarget "GreFlashCardsTests" */;
+			buildPhases = (
+				07FF77941996BBCB0058FA97 /* Sources */,
+				07FF77951996BBCB0058FA97 /* Frameworks */,
+				07FF77961996BBCB0058FA97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FF779A1996BBCB0058FA97 /* PBXTargetDependency */,
+			);
+			name = GreFlashCardsTests;
+			productName = GreFlashCardsTests;
+			productReference = 07FF77981996BBCB0058FA97 /* GreFlashCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07FF777B1996BBCB0058FA97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Mihir Kelkar";
+				TargetAttributes = {
+					07FF77821996BBCB0058FA97 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					07FF77971996BBCB0058FA97 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 07FF77821996BBCB0058FA97;
+					};
+				};
+			};
+			buildConfigurationList = 07FF777E1996BBCB0058FA97 /* Build configuration list for PBXProject "GreFlashCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07FF777A1996BBCB0058FA97;
+			productRefGroup = 07FF77841996BBCB0058FA97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07FF77821996BBCB0058FA97 /* GreFlashCards */,
+				07FF77971996BBCB0058FA97 /* GreFlashCardsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07FF77811996BBCB0058FA97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FF77911996BBCB0058FA97 /* Main.storyboard in Resources */,
+				07FF77931996BBCB0058FA97 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FF77961996BBCB0058FA97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07FF777F1996BBCB0058FA97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F6D4FF1996EC3F0002765B /* customTableViewController.swift in Sources */,
+				07F6D4FB1996D21F0002765B /* worddictViewController.swift in Sources */,
+				07FF77A91996C81D0058FA97 /* meaningViewController.swift in Sources */,
+				07FF778E1996BBCB0058FA97 /* ViewController.swift in Sources */,
+				07FF77891996BBCB0058FA97 /* AppDelegate.swift in Sources */,
+				07FF778C1996BBCB0058FA97 /* GreFlashCards.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FF77941996BBCB0058FA97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FF779F1996BBCB0058FA97 /* GreFlashCardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07FF779A1996BBCB0058FA97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07FF77821996BBCB0058FA97 /* GreFlashCards */;
+			targetProxy = 07FF77991996BBCB0058FA97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07FF778F1996BBCB0058FA97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07FF77901996BBCB0058FA97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07FF77A01996BBCB0058FA97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07FF77A11996BBCB0058FA97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07FF77A31996BBCB0058FA97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = GreFlashCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07FF77A41996BBCB0058FA97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = GreFlashCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07FF77A61996BBCB0058FA97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GreFlashCards.app/GreFlashCards";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GreFlashCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		07FF77A71996BBCB0058FA97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GreFlashCards.app/GreFlashCards";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GreFlashCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07FF777E1996BBCB0058FA97 /* Build configuration list for PBXProject "GreFlashCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FF77A01996BBCB0058FA97 /* Debug */,
+				07FF77A11996BBCB0058FA97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FF77A21996BBCB0058FA97 /* Build configuration list for PBXNativeTarget "GreFlashCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FF77A31996BBCB0058FA97 /* Debug */,
+				07FF77A41996BBCB0058FA97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FF77A51996BBCB0058FA97 /* Build configuration list for PBXNativeTarget "GreFlashCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FF77A61996BBCB0058FA97 /* Debug */,
+				07FF77A71996BBCB0058FA97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		07FF778A1996BBCB0058FA97 /* GreFlashCards.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07FF778B1996BBCB0058FA97 /* GreFlashCards.xcdatamodel */,
+			);
+			currentVersion = 07FF778B1996BBCB0058FA97 /* GreFlashCards.xcdatamodel */;
+			path = GreFlashCards.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 07FF777B1996BBCB0058FA97 /* Project object */;
+}
